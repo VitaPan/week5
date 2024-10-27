@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Vollkorn", serif, Times;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+div {
+    outline: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    height: 1000px;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+img:hover {
+    width: 600px;
+    height: 500px;
+}
+
+aside {
+    outline: 1px solid rgb(0, 0, 0);
+    width: 20%;
+    height: 1000px;
+}
+
+p {
+    font-family: "Vollkorn", serif, Times;
+    padding-left: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}

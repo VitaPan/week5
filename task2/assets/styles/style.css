@@ -1,0 +1,33 @@
+nav {
+    position: relative;
+    margin-left: 80%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+h1 {
+    position: relative;
+    margin-left: 40%;
+}
+
+div {
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+figcaption {
+    font-family: "Vollkorn", serif, Times;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+img:hover {
+    width: 600px;
+    height: 500px;
+}
